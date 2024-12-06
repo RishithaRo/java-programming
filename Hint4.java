@@ -7,8 +7,8 @@ In this case, the method in the subclass overrides the method in the superclass.
 This concept is known as method overriding in Java.
 */
 
-
-class Method_overriding1
+// This concept is also called as "Run-time polymorphism in java"
+class Hint4
 {
     public static void main(String args[])
     {
