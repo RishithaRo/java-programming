@@ -18,7 +18,13 @@ class Rish10
 			}
 			i++;
 		}
-		System.out.println(sum);
+		if(sum==n)
+		{
+			System.out.print("perfect Number");
+		}
+		else
+		{
+			System.out.print("Not a perfect Number");
+		}
 	}
-
 }
