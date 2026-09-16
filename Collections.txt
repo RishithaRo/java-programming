@@ -1,0 +1,8 @@
+Operations that can be Performed on a Vector, ArrayList
+
+1. Creation of list
+2. Addition of elements into the list
+3. Retrieval of elements from the list
+4. Updating the elements
+5. Removal of elements
+6. Verification of elements present in the list or not
