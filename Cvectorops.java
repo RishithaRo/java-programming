@@ -7,7 +7,20 @@ public class Main
 		// Its default capacity is 10 and initial capacity is 10
 		
 		// Creation of Vector
-		Vector<Integer> ob = new Vector<>();
+		// Vector offers 4 different constructors for creating an object of it 
+		Vector<Integer> ob = new Vector<>(); // type 1 - Default creation (Capacity = 10) 
+		/*
+		
+		Vector<Integer> v1 = new Vector<>(50); // Pre-defined capacity 
+		
+		// Custom capacity and explicit growth increment
+		Vector<Integer> v2 = new Vector<>(20,5); // 20->Capacity , 5-> slots to increment , Here, It grows by adding exactly 5 slots instead of doubling.
+		
+		// Created directly from an existing Collection
+		List<Integer> src = Arrays.asList(10,20);
+		Vector<Integer> v3 = new Vector<>(src);
+		
+		*/
 		// Default capacity : No. of elements that the internal array can store when no elements are added
 		System.out.println(ob.capacity());
 		// Addition of an element into the vector 
